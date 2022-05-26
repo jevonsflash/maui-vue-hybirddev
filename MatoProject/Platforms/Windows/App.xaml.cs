@@ -1,4 +1,5 @@
 ﻿using Microsoft.Maui;
+using Microsoft.Maui.ApplicationModel;
 using Microsoft.Maui.Hosting;
 using Microsoft.UI.Xaml;
 using Windows.ApplicationModel;
@@ -28,7 +29,7 @@ namespace MatoProject.WinUI
         {
             base.OnLaunched(args);
 
-            Microsoft.Maui.Essentials.Platform.OnLaunched(args);
+            Platform.OnLaunched(args);
         }
     }
 }
