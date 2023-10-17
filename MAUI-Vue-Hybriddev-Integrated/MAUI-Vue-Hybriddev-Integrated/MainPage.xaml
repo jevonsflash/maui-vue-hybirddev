@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MAUI_Vue_Hybriddev_Integrated"
+             x:Class="MAUI_Vue_Hybriddev_Integrated.MainPage">
+
+    <Shell.SearchHandler>
+        <SearchHandler Placeholder="Enter search term"
+                       ShowsResults="true"
+                       DisplayMemberName="Name" />
+    </Shell.SearchHandler>
+    <TabBar>
+        <Tab  Title="首页">
+            <ShellContent  x:Name="HomePageContent" />
+        </Tab>
+        <Tab  Title="页面2">
+            <ShellContent x:Name="SecondPageContent" />
+        </Tab>
+        <Tab  Title="我的">
+            <ShellContent x:Name="MyContent" />
+        </Tab>
+    </TabBar>
+
+</Shell>

@@ -1,0 +1,1 @@
+D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-StandaloneHost\MAUI-Vue-Hybriddev-StandaloneHost\MAUI-Vue-Hybriddev-StandaloneHost.csproj;x64

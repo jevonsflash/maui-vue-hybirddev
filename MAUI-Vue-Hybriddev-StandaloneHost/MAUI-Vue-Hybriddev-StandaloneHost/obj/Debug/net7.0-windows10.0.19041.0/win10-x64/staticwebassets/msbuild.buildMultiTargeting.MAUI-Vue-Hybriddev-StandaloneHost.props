@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MAUI-Vue-Hybriddev-StandaloneHost.props" />
+</Project>

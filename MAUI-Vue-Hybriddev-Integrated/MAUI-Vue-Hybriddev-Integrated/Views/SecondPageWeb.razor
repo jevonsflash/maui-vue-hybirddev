@@ -1,0 +1,66 @@
+﻿@using Microsoft.Maui.Controls
+@inject IJSRuntime JSRuntime
+
+<div id="vue-app">
+    {{ message }}
+    <el-input v-model="input" placeholder="请输入内容"></el-input>
+    <el-button @click="showDialog = true">提交</el-button>
+    <el-dialog :visible.sync="showDialog" title="消息">
+        <p>提交成功</p>
+    </el-dialog>
+</div>
+
+
+<script type="text/javascript">
+    var app = new Vue({
+        el: '#vue-app',
+        data: {
+            message: 'Page2!',
+            showDialog:true
+        }
+    })
+
+</script>
+
+
+
+@code {
+    [Parameter]
+    public SecondPage SecondPage { get; set; }
+
+    [JSInvokable]
+    public static Task<string> GetFoo()
+    {
+        return Task.FromResult("this is foo call C# method from js");
+    }
+
+    [JSInvokable]
+    public static Task<int> Add(AddInput addInput)
+    {
+        return Task.FromResult(addInput.a + addInput.b);
+    }
+
+    public async void Post(object o, EventArgs a)
+    {
+        await JSRuntime.InvokeAsync<string>("postBar", "this is bar call js method from C#");
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        try
+        {
+            if (firstRender)
+            {
+            }
+
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex);
+        }
+
+    }
+
+
+}

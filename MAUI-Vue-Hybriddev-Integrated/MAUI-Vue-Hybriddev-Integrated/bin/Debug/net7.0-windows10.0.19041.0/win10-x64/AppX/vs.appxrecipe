@@ -1,0 +1,1395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-9EV51H7</Machine>
+    <WindowsUser>jevon</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>638A4D6C-4388-4E0A-A920-2836F483B220</PackageIdentityName>
+    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>4AE42B61623356FDC2C57749DC95351659C3F6DC05F0F11DAA20FC3273E6D3AE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>638A4D6C-4388-4E0A-A920-2836F483B220_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>638A4D6C-4388-4E0A-A920-2836F483B220_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>638A4D6C-4388-4E0A-A920-2836F483B220</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2023-10-16T07:05:22.212</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2023-10-16T06:55:14.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUI-Vue-Hybriddev-Integrated.runtimeconfig.json">
+      <PackagePath>MAUI-Vue-Hybriddev-Integrated.runtimeconfig.json</PackagePath>
+      <Modified>2023-10-16T06:36:03.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUI-Vue-Hybriddev-Integrated.dll">
+      <PackagePath>MAUI-Vue-Hybriddev-Integrated.dll</PackagePath>
+      <Modified>2023-10-16T07:05:21.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+      <PackagePath>MAUI-Vue-Hybriddev-Integrated.exe</PackagePath>
+      <Modified>2023-10-16T07:05:21.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUI-Vue-Hybriddev-Integrated.deps.json">
+      <PackagePath>MAUI-Vue-Hybriddev-Integrated.deps.json</PackagePath>
+      <Modified>2023-10-16T06:49:55.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2023-07-13T22:14:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.VisualBasic.Core.dll">
+      <PackagePath>Microsoft.VisualBasic.Core.dll</PackagePath>
+      <Modified>2023-07-13T22:14:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.Win32.Registry.dll">
+      <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
+      <Modified>2023-07-13T22:15:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2023-07-13T22:15:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2023-07-13T22:15:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2023-07-13T22:15:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2023-07-13T22:15:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2023-07-13T22:15:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2023-07-13T22:15:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2023-07-13T22:15:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ComponentModel.Primitives.dll">
+      <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
+      <Modified>2023-07-13T22:15:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
+      <Modified>2023-07-13T22:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2023-07-13T22:15:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Configuration.dll">
+      <PackagePath>System.Configuration.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Console.dll">
+      <PackagePath>System.Console.dll</PackagePath>
+      <Modified>2023-07-13T22:15:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2023-07-13T22:15:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Data.DataSetExtensions.dll">
+      <PackagePath>System.Data.DataSetExtensions.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Data.dll">
+      <PackagePath>System.Data.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2023-07-13T22:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>System.Diagnostics.FileVersionInfo.dll</PackagePath>
+      <Modified>2023-07-13T22:15:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.Process.dll">
+      <PackagePath>System.Diagnostics.Process.dll</PackagePath>
+      <Modified>2023-07-13T22:15:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2023-07-13T22:15:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+      <Modified>2023-07-13T22:15:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.TraceSource.dll">
+      <PackagePath>System.Diagnostics.TraceSource.dll</PackagePath>
+      <Modified>2023-07-13T22:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Drawing.Primitives.dll">
+      <PackagePath>System.Drawing.Primitives.dll</PackagePath>
+      <Modified>2023-07-13T22:15:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Drawing.dll">
+      <PackagePath>System.Drawing.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Formats.Asn1.dll">
+      <PackagePath>System.Formats.Asn1.dll</PackagePath>
+      <Modified>2023-07-13T22:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Formats.Tar.dll">
+      <PackagePath>System.Formats.Tar.dll</PackagePath>
+      <Modified>2023-07-13T22:15:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.Compression.Brotli.dll">
+      <PackagePath>System.IO.Compression.Brotli.dll</PackagePath>
+      <Modified>2023-07-13T22:15:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.Compression.FileSystem.dll">
+      <PackagePath>System.IO.Compression.FileSystem.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2023-07-13T22:15:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2023-07-13T22:15:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>System.IO.FileSystem.AccessControl.dll</PackagePath>
+      <Modified>2023-07-13T22:15:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>System.IO.FileSystem.DriveInfo.dll</PackagePath>
+      <Modified>2023-07-13T22:15:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>System.IO.FileSystem.Watcher.dll</PackagePath>
+      <Modified>2023-07-13T22:16:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2023-07-13T22:16:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
+      <Modified>2023-07-13T22:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.Pipes.AccessControl.dll">
+      <PackagePath>System.IO.Pipes.AccessControl.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.Pipes.dll">
+      <PackagePath>System.IO.Pipes.dll</PackagePath>
+      <Modified>2023-07-13T22:16:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2023-07-13T22:16:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2023-07-13T22:16:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2023-07-13T22:16:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2023-07-13T22:16:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Memory.dll">
+      <PackagePath>System.Memory.dll</PackagePath>
+      <Modified>2023-07-13T22:16:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Http.Json.dll">
+      <PackagePath>System.Net.Http.Json.dll</PackagePath>
+      <Modified>2023-07-13T22:16:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2023-07-13T22:16:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.HttpListener.dll">
+      <PackagePath>System.Net.HttpListener.dll</PackagePath>
+      <Modified>2023-07-13T22:16:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Mail.dll">
+      <PackagePath>System.Net.Mail.dll</PackagePath>
+      <Modified>2023-07-13T22:16:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+      <Modified>2023-07-13T22:16:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2023-07-13T22:16:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Ping.dll">
+      <PackagePath>System.Net.Ping.dll</PackagePath>
+      <Modified>2023-07-13T22:16:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2023-07-13T22:16:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Quic.dll">
+      <PackagePath>System.Net.Quic.dll</PackagePath>
+      <Modified>2023-07-13T22:16:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2023-07-13T22:16:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Security.dll">
+      <PackagePath>System.Net.Security.dll</PackagePath>
+      <Modified>2023-07-13T22:16:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.ServicePoint.dll">
+      <PackagePath>System.Net.ServicePoint.dll</PackagePath>
+      <Modified>2023-07-13T22:16:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2023-07-13T22:16:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.WebClient.dll">
+      <PackagePath>System.Net.WebClient.dll</PackagePath>
+      <Modified>2023-07-13T22:16:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2023-07-13T22:16:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.WebProxy.dll">
+      <PackagePath>System.Net.WebProxy.dll</PackagePath>
+      <Modified>2023-07-13T22:16:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+      <Modified>2023-07-13T22:16:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+      <Modified>2023-07-13T22:17:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2023-07-13T22:17:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Private.CoreLib.dll">
+      <PackagePath>System.Private.CoreLib.dll</PackagePath>
+      <Modified>2023-07-13T21:36:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2023-07-13T22:17:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2023-07-13T22:17:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Private.Xml.Linq.dll">
+      <PackagePath>System.Private.Xml.Linq.dll</PackagePath>
+      <Modified>2023-07-13T22:17:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Private.Xml.dll">
+      <PackagePath>System.Private.Xml.dll</PackagePath>
+      <Modified>2023-07-13T22:17:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2023-07-13T22:17:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2023-07-13T22:17:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2023-07-13T22:17:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Resources.Reader.dll">
+      <PackagePath>System.Resources.Reader.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Resources.Writer.dll">
+      <PackagePath>System.Resources.Writer.dll</PackagePath>
+      <Modified>2023-07-13T22:17:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+      <Modified>2023-07-13T22:17:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.InteropServices.JavaScript.dll">
+      <PackagePath>System.Runtime.InteropServices.JavaScript.dll</PackagePath>
+      <Modified>2023-07-13T22:17:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2023-07-13T22:17:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Intrinsics.dll">
+      <PackagePath>System.Runtime.Intrinsics.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Loader.dll">
+      <PackagePath>System.Runtime.Loader.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2023-07-13T22:17:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
+      <Modified>2023-07-13T22:17:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2023-07-13T22:17:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.AccessControl.dll">
+      <PackagePath>System.Security.AccessControl.dll</PackagePath>
+      <Modified>2023-07-13T22:17:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2023-07-13T22:17:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.Csp.dll">
+      <PackagePath>System.Security.Cryptography.Csp.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.OpenSsl.dll">
+      <PackagePath>System.Security.Cryptography.OpenSsl.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Cryptography.dll">
+      <PackagePath>System.Security.Cryptography.dll</PackagePath>
+      <Modified>2023-07-13T22:17:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Principal.Windows.dll">
+      <PackagePath>System.Security.Principal.Windows.dll</PackagePath>
+      <Modified>2023-07-13T22:17:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.SecureString.dll">
+      <PackagePath>System.Security.SecureString.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Security.dll">
+      <PackagePath>System.Security.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ServiceProcess.dll">
+      <PackagePath>System.ServiceProcess.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2023-07-13T22:17:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+      <Modified>2023-07-13T22:17:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2023-07-13T22:17:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2023-07-13T22:17:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.Channels.dll">
+      <PackagePath>System.Threading.Channels.dll</PackagePath>
+      <Modified>2023-07-13T22:17:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2023-07-13T22:18:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2023-07-13T22:18:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.Thread.dll">
+      <PackagePath>System.Threading.Thread.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.ThreadPool.dll">
+      <PackagePath>System.Threading.ThreadPool.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2023-07-13T22:18:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Transactions.Local.dll">
+      <PackagePath>System.Transactions.Local.dll</PackagePath>
+      <Modified>2023-07-13T22:18:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Transactions.dll">
+      <PackagePath>System.Transactions.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.ValueTuple.dll">
+      <PackagePath>System.ValueTuple.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Web.HttpUtility.dll">
+      <PackagePath>System.Web.HttpUtility.dll</PackagePath>
+      <Modified>2023-07-13T22:18:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Web.dll">
+      <PackagePath>System.Web.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.XPath.XDocument.dll">
+      <PackagePath>System.Xml.XPath.XDocument.dll</PackagePath>
+      <Modified>2023-07-13T22:18:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.XPath.dll">
+      <PackagePath>System.Xml.XPath.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\WindowsBase.dll">
+      <PackagePath>WindowsBase.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\mscorlib.dll">
+      <PackagePath>mscorlib.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\netstandard.dll">
+      <PackagePath>netstandard.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Runtime.win\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.dll">
+      <PackagePath>Microsoft.Maui.dll</PackagePath>
+      <Modified>2023-06-30T08:58:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Runtime.win\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
+      <Modified>2023-06-30T08:57:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Runtime.win\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
+      <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
+      <Modified>2023-06-30T08:58:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Runtime.win\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
+      <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
+      <Modified>2023-06-30T08:58:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Essentials.Runtime.win\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
+      <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
+      <Modified>2023-06-30T08:57:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\Microsoft.DiaSymReader.Native.amd64.dll">
+      <PackagePath>Microsoft.DiaSymReader.Native.amd64.dll</PackagePath>
+      <Modified>2023-03-30T05:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\System.IO.Compression.Native.dll">
+      <PackagePath>System.IO.Compression.Native.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+      <Modified>2023-07-13T21:30:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\clrgc.dll">
+      <PackagePath>clrgc.dll</PackagePath>
+      <Modified>2023-07-13T21:26:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2023-07-13T21:27:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+      <Modified>2023-07-13T21:32:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\createdump.exe">
+      <PackagePath>createdump.exe</PackagePath>
+      <Modified>2023-07-13T21:30:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\hostfxr.dll">
+      <PackagePath>hostfxr.dll</PackagePath>
+      <Modified>2023-07-13T22:10:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\hostpolicy.dll">
+      <PackagePath>hostpolicy.dll</PackagePath>
+      <Modified>2023-07-13T22:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+      <Modified>2023-07-13T21:38:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\mscordaccore_amd64_amd64_7.0.1023.36312.dll">
+      <PackagePath>mscordaccore_amd64_amd64_7.0.1023.36312.dll</PackagePath>
+      <Modified>2023-07-13T21:38:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+      <Modified>2023-07-13T21:39:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+      <Modified>2023-07-13T21:30:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\native\msquic.dll">
+      <PackagePath>msquic.dll</PackagePath>
+      <Modified>2023-07-13T21:51:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2023-06-09T20:10:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.29\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2023-06-09T20:10:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.aspnetcore.authorization\7.0.0\lib\net7.0\Microsoft.AspNetCore.Authorization.dll">
+      <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
+      <Modified>2022-10-19T06:09:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.aspnetcore.components\7.0.0\lib\net7.0\Microsoft.AspNetCore.Components.dll">
+      <PackagePath>Microsoft.AspNetCore.Components.dll</PackagePath>
+      <Modified>2022-10-19T06:06:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.aspnetcore.components.forms\7.0.0\lib\net7.0\Microsoft.AspNetCore.Components.Forms.dll">
+      <PackagePath>Microsoft.AspNetCore.Components.Forms.dll</PackagePath>
+      <Modified>2022-10-19T06:06:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.aspnetcore.components.web\7.0.0\lib\net7.0\Microsoft.AspNetCore.Components.Web.dll">
+      <PackagePath>Microsoft.AspNetCore.Components.Web.dll</PackagePath>
+      <Modified>2022-10-19T06:08:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.aspnetcore.components.webview\7.0.0\lib\net7.0\Microsoft.AspNetCore.Components.WebView.dll">
+      <PackagePath>Microsoft.AspNetCore.Components.WebView.dll</PackagePath>
+      <Modified>2022-10-19T06:09:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.aspnetcore.components.webview.maui\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.AspNetCore.Components.WebView.Maui.dll">
+      <PackagePath>Microsoft.AspNetCore.Components.WebView.Maui.dll</PackagePath>
+      <Modified>2023-06-30T16:58:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.aspnetcore.metadata\7.0.0\lib\net7.0\Microsoft.AspNetCore.Metadata.dll">
+      <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
+      <Modified>2022-10-19T06:09:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+      <Modified>2022-10-18T16:15:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.configuration.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2022-10-18T16:15:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.configuration.binder\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.Binder.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
+      <Modified>2022-10-18T16:15:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.configuration.fileextensions\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.FileExtensions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.FileExtensions.dll</PackagePath>
+      <Modified>2022-10-18T16:16:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.configuration.json\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.Json.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Json.dll</PackagePath>
+      <Modified>2022-10-18T16:16:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.dependencyinjection\7.0.0\lib\net7.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2022-10-18T16:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2022-10-18T16:15:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.fileproviders.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.FileProviders.Abstractions.dll</PackagePath>
+      <Modified>2022-10-18T16:15:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.fileproviders.composite\7.0.0\lib\net7.0\Microsoft.Extensions.FileProviders.Composite.dll">
+      <PackagePath>Microsoft.Extensions.FileProviders.Composite.dll</PackagePath>
+      <Modified>2022-10-18T16:15:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.fileproviders.embedded\7.0.0\lib\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll">
+      <PackagePath>Microsoft.Extensions.FileProviders.Embedded.dll</PackagePath>
+      <Modified>2022-10-19T06:06:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.fileproviders.physical\7.0.0\lib\net7.0\Microsoft.Extensions.FileProviders.Physical.dll">
+      <PackagePath>Microsoft.Extensions.FileProviders.Physical.dll</PackagePath>
+      <Modified>2022-10-18T16:16:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.filesystemglobbing\7.0.0\lib\net7.0\Microsoft.Extensions.FileSystemGlobbing.dll">
+      <PackagePath>Microsoft.Extensions.FileSystemGlobbing.dll</PackagePath>
+      <Modified>2022-10-18T16:15:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.logging\7.0.0\lib\net7.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2022-10-18T16:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2022-10-18T16:15:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.logging.debug\7.0.0\lib\net7.0\Microsoft.Extensions.Logging.Debug.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
+      <Modified>2022-10-18T16:16:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.options\7.0.0\lib\net7.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2022-10-18T16:15:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.extensions.primitives\7.0.0\lib\net7.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2022-10-18T16:15:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\lib\net5.0-windows10.0.17763.0\Microsoft.Graphics.Canvas.Interop.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
+      <Modified>2023-05-31T20:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.jsinterop\7.0.0\lib\net7.0\Microsoft.JSInterop.dll">
+      <PackagePath>Microsoft.JSInterop.dll</PackagePath>
+      <Modified>2022-10-19T06:08:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.maui.graphics\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
+      <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
+      <Modified>2023-06-30T16:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\7.0.92\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+      <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+      <Modified>2023-06-30T16:58:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2022-12-07T05:51:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2022-12-07T17:39:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <Modified>2022-11-03T19:53:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2022-11-08T19:31:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\system.io.pipelines\7.0.0\lib\net7.0\System.IO.Pipelines.dll">
+      <PackagePath>System.IO.Pipelines.dll</PackagePath>
+      <Modified>2022-10-18T16:15:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2023-05-31T20:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2022-11-08T19:31:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
+      <Modified>2023-06-30T08:51:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+      <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
+      <Modified>2023-06-30T08:51:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Core.Ref.win\7.0.92\ref\net7.0-windows10.0.19041\Microsoft.Maui.pri">
+      <PackagePath>Microsoft.Maui.pri</PackagePath>
+      <Modified>2023-06-30T08:50:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\Resources\Raw\AboutAssets.txt">
+      <PackagePath>AboutAssets.txt</PackagePath>
+      <Modified>2023-10-16T02:23:34.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\MAUI-Vue-Hybriddev-Integrated.styles.css">
+      <PackagePath>wwwroot\MAUI-Vue-Hybriddev-Integrated.styles.css</PackagePath>
+      <Modified>2023-10-16T02:23:48.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\MAUI-Vue-Hybriddev-Integrated.bundle.scp.css">
+      <PackagePath>wwwroot\MAUI-Vue-Hybriddev-Integrated.bundle.scp.css</PackagePath>
+      <Modified>2023-10-16T02:23:48.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\Views\HomePageWeb.razor.js">
+      <PackagePath>wwwroot\Views\HomePageWeb.razor.js</PackagePath>
+      <Modified>2023-10-16T06:30:12.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\Views\SecondPageWeb.razor.js">
+      <PackagePath>wwwroot\Views\SecondPageWeb.razor.js</PackagePath>
+      <Modified>2023-10-16T06:30:12.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\app.css">
+      <PackagePath>wwwroot\css\app.css</PackagePath>
+      <Modified>2023-10-10T12:12:37.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\bootstrap\bootstrap.min.css">
+      <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
+      <Modified>2023-10-10T12:12:37.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\bootstrap\bootstrap.min.css.map">
+      <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
+      <Modified>2023-10-13T06:03:14.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\element-ui\theme-chalk_index.css">
+      <PackagePath>wwwroot\css\element-ui\theme-chalk_index.css</PackagePath>
+      <Modified>2023-10-13T06:43:57.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\fonts\SegoeUI.woff">
+      <PackagePath>wwwroot\css\fonts\SegoeUI.woff</PackagePath>
+      <Modified>2023-10-10T12:12:37.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\fonts\SegoeUIBold.woff">
+      <PackagePath>wwwroot\css\fonts\SegoeUIBold.woff</PackagePath>
+      <Modified>2023-10-10T12:12:37.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\fonts\SegoeUILight.woff">
+      <PackagePath>wwwroot\css\fonts\SegoeUILight.woff</PackagePath>
+      <Modified>2023-10-10T12:12:37.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\fonts\SegoeUISemibold.woff">
+      <PackagePath>wwwroot\css\fonts\SegoeUISemibold.woff</PackagePath>
+      <Modified>2023-10-10T12:12:37.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\fonts\SegoeUISemilight.woff">
+      <PackagePath>wwwroot\css\fonts\SegoeUISemilight.woff</PackagePath>
+      <Modified>2023-10-10T12:12:37.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
+      <PackagePath>wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css</PackagePath>
+      <Modified>2023-10-10T12:12:37.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\font\fonts\open-iconic.eot">
+      <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.eot</PackagePath>
+      <Modified>2023-10-10T12:12:37.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\font\fonts\open-iconic.otf">
+      <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.otf</PackagePath>
+      <Modified>2023-10-10T12:12:37.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\font\fonts\open-iconic.svg">
+      <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.svg</PackagePath>
+      <Modified>2023-10-10T12:12:37.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf">
+      <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.ttf</PackagePath>
+      <Modified>2023-10-10T12:12:37.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
+      <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.woff</PackagePath>
+      <Modified>2023-10-10T12:12:37.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\FONT-LICENSE">
+      <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
+      <Modified>2023-10-10T12:12:37.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\ICON-LICENSE">
+      <PackagePath>wwwroot\css\open-iconic\ICON-LICENSE</PackagePath>
+      <Modified>2023-10-10T12:12:37.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\css\open-iconic\README.md">
+      <PackagePath>wwwroot\css\open-iconic\README.md</PackagePath>
+      <Modified>2023-10-10T12:12:37.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\favicon.ico">
+      <PackagePath>wwwroot\favicon.ico</PackagePath>
+      <Modified>2023-10-10T12:12:37.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\index.html">
+      <PackagePath>wwwroot\index.html</PackagePath>
+      <Modified>2023-10-16T06:47:34.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\lib\echarts\echarts.min.js">
+      <PackagePath>wwwroot\lib\echarts\echarts.min.js</PackagePath>
+      <Modified>2023-10-10T12:12:37.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\lib\element-ui\element-ui.js">
+      <PackagePath>wwwroot\lib\element-ui\element-ui.js</PackagePath>
+      <Modified>2023-10-13T06:43:19.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\lib\vuejs\vue.js">
+      <PackagePath>wwwroot\lib\vuejs\vue.js</PackagePath>
+      <Modified>2023-10-13T06:41:39.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\wwwroot\second-page.html">
+      <PackagePath>wwwroot\second-page.html</PackagePath>
+      <Modified>2023-10-16T06:47:34.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+      <Modified>2023-10-16T02:23:34.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2023-10-16T02:23:50.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.584</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.362</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.498</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2023-10-16T02:23:50.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\Shared\MainLayout.razor.css">
+      <PackagePath>Shared\MainLayout.razor.css</PackagePath>
+      <Modified>2023-10-16T02:23:34.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Project\maui-vue-hybirddev\MAUI-Vue-Hybriddev-Integrated\MAUI-Vue-Hybriddev-Integrated\Shared\NavMenu.razor.css">
+      <PackagePath>Shared\NavMenu.razor.css</PackagePath>
+      <Modified>2023-10-16T02:23:34.564</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.2</Name>
+      <Version>2000.707.2303.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.2, MinVersion = 2000.707.2303.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.2</Name>
+      <Version>2000.707.2303.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.2, MinVersion = 2000.707.2303.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.2.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.2</Name>
+      <Version>2000.707.2303.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.2, MinVersion = 2000.707.2303.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.2.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.2.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.2</Name>
+      <Version>2000.707.2303.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.2, MinVersion = 2000.707.2303.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jevon\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.2.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Project\\maui-vue-hybirddev\\MAUI-Vue-Hybriddev-StandaloneHost\\MAUI-Vue-Hybriddev-StandaloneHost\\obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\MAUI-Vue-Hybriddev-StandaloneHost.styles.css",
+      "PackagePath": "staticwebassets\\MAUI-Vue-Hybriddev-StandaloneHost.styles.css"
+    },
+    {
+      "Id": "D:\\Project\\maui-vue-hybirddev\\MAUI-Vue-Hybriddev-StandaloneHost\\MAUI-Vue-Hybriddev-StandaloneHost\\wwwroot\\css\\app.03043124.css",
+      "PackagePath": "staticwebassets\\css\\app.03043124.css"
+    },
+    {
+      "Id": "D:\\Project\\maui-vue-hybirddev\\MAUI-Vue-Hybriddev-StandaloneHost\\MAUI-Vue-Hybriddev-StandaloneHost\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Project\\maui-vue-hybirddev\\MAUI-Vue-Hybriddev-StandaloneHost\\MAUI-Vue-Hybriddev-StandaloneHost\\wwwroot\\img\\logo.82b9c7a5.png",
+      "PackagePath": "staticwebassets\\img\\logo.82b9c7a5.png"
+    },
+    {
+      "Id": "D:\\Project\\maui-vue-hybirddev\\MAUI-Vue-Hybriddev-StandaloneHost\\MAUI-Vue-Hybriddev-StandaloneHost\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Project\\maui-vue-hybirddev\\MAUI-Vue-Hybriddev-StandaloneHost\\MAUI-Vue-Hybriddev-StandaloneHost\\wwwroot\\js\\about.dc8b0f2b.js",
+      "PackagePath": "staticwebassets\\js\\about.dc8b0f2b.js"
+    },
+    {
+      "Id": "D:\\Project\\maui-vue-hybirddev\\MAUI-Vue-Hybriddev-StandaloneHost\\MAUI-Vue-Hybriddev-StandaloneHost\\wwwroot\\js\\app.c2c23df4.js",
+      "PackagePath": "staticwebassets\\js\\app.c2c23df4.js"
+    },
+    {
+      "Id": "D:\\Project\\maui-vue-hybirddev\\MAUI-Vue-Hybriddev-StandaloneHost\\MAUI-Vue-Hybriddev-StandaloneHost\\wwwroot\\js\\chunk-vendors.cf6d8f84.js",
+      "PackagePath": "staticwebassets\\js\\chunk-vendors.cf6d8f84.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.MAUI-Vue-Hybriddev-StandaloneHost.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.build.MAUI-Vue-Hybriddev-StandaloneHost.props",
+      "PackagePath": "build\\MAUI-Vue-Hybriddev-StandaloneHost.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildMultiTargeting.MAUI-Vue-Hybriddev-StandaloneHost.props",
+      "PackagePath": "buildMultiTargeting\\MAUI-Vue-Hybriddev-StandaloneHost.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows10.0.19041.0\\win10-x64\\staticwebassets\\msbuild.buildTransitive.MAUI-Vue-Hybriddev-StandaloneHost.props",
+      "PackagePath": "buildTransitive\\MAUI-Vue-Hybriddev-StandaloneHost.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

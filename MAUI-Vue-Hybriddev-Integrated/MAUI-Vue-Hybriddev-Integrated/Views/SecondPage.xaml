@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MAUI_Vue_Hybriddev_Integrated"
+             xmlns:views="clr-namespace:MAUI_Vue_Hybriddev_Integrated.Views"
+             x:Class="MAUI_Vue_Hybriddev_Integrated.SecondPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <BlazorWebView x:Name="blazorWebView"
+                       HostPage="wwwroot/second-page.html">
+            <BlazorWebView.RootComponents>
+                <RootComponent Selector="#app"
+                               x:Name="rootComponent"
+                               ComponentType="{x:Type views:SecondPageWeb}" />
+            </BlazorWebView.RootComponents>
+        </BlazorWebView>
+        <StackLayout Grid.Row="1">
+            <Entry Text="text message from native"></Entry>
+            <Button Text="Post Bar To WebView"
+                    HorizontalOptions="Center"
+                    VerticalOptions="End"
+                    HeightRequest="40"
+                    Clicked="PostBar_Clicked"></Button>
+
+        </StackLayout>
+      
+    </Grid>
+</ContentPage>
