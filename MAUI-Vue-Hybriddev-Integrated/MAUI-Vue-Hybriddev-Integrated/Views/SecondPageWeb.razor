@@ -5,33 +5,46 @@
 <div id="vue-app">
     {{ message }}
     <el-input v-model="input" placeholder="请输入内容"></el-input>
-    <el-button @click="showDialog = true">提交</el-button>
-    <el-dialog :visible.sync="showDialog" title="消息">
-        <p>提交成功</p>
+    <el-button @click="post">Post To Native</el-button>
+    <el-dialog :visible.sync="showDialog" title="Native device msg recived!">
+        <p>{{msg}}</p>
     </el-dialog>
+    <p>Device Display</p>
+    <p>{{deviceDisplay}}</p>
 </div>
 
 
 
 @code {
+    private DotNetObjectReference<SecondPageWeb>? objRef;
+
     [Parameter]
     public SecondPage SecondPage { get; set; }
 
     [JSInvokable]
-    public static Task<string> GetFoo()
+    public async Task Post(string content)
     {
-        return Task.FromResult("this is foo call C# method from js");
+        await SecondPage.DisplayAlert("Vue msg recived!", content, "Got it!");
+
     }
 
     [JSInvokable]
-    public static Task<int> Add(AddInput addInput)
+    public async Task<string> ReadDeviceDisplay()
     {
-        return Task.FromResult(addInput.a + addInput.b);
+        return await Task.FromResult(SecondPage.ReadDeviceDisplay());
+
     }
 
-    public async void Post(object o, OnPostEventArgs args)
+
+
+    protected override void OnInitialized()
     {
-        await JSRuntime.InvokeAsync<string>("app.greet", args.Content);
+        objRef = DotNetObjectReference.Create(this);
+    }
+
+    public async void Recived(object o, OnPostEventArgs args)
+    {
+        await JSRuntime.InvokeAsync<string>("window.app.greet", args.Content);
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -40,10 +53,12 @@
         {
             if (firstRender)
             {
-                SecondPage.OnPost += this.Post;
+                SecondPage.OnPost += this.Recived;
 
                 await JSRuntime.InvokeAsync<IJSObjectReference>(
     "import", "./Views/SecondPageWeb.razor.js");
+                await JSRuntime.InvokeAsync<string>("window.initObjRef", this.objRef);
+
             }
 
 
@@ -58,7 +73,7 @@
 
     public void Dispose()
     {
-        SecondPage1.OnPost -= this.Post;
+        SecondPage.OnPost -= this.Recived;
     }
 
 

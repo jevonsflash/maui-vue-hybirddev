@@ -54,6 +54,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Compile Update="Views\ThirdPage.xaml.cs">
+        <DependentUpon>ThirdPage.xaml</DependentUpon>
+      </Compile>
       <Compile Update="Views\SecondPage.xaml.cs">
         <DependentUpon>SecondPage.xaml</DependentUpon>
       </Compile>
@@ -63,6 +66,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <MauiXaml Update="Views\ThirdPage.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </MauiXaml>
       <MauiXaml Update="Views\SecondPage.xaml">
         <Generator>MSBuild:Compile</Generator>
       </MauiXaml>

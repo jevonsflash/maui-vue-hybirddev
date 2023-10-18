@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MAUI_Vue_Hybriddev_Integrated"
              xmlns:views="clr-namespace:MAUI_Vue_Hybriddev_Integrated.Views"
-             x:Class="MAUI_Vue_Hybriddev_Integrated.SecondPage">
+             x:Class="MAUI_Vue_Hybriddev_Integrated.ThirdPage">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -14,18 +14,8 @@
             <BlazorWebView.RootComponents>
                 <RootComponent Selector="#blazor-app"
                                x:Name="rootComponent"
-                               ComponentType="{x:Type views:SecondPageWeb}" />
+                               ComponentType="{x:Type views:ThirdPageWeb}" />
             </BlazorWebView.RootComponents>
         </BlazorWebView>
-        <StackLayout Grid.Row="1">
-            <Entry x:Name="PostContentEntry" Text="Hello,this is greetings from native device"></Entry>
-            <Button Text="Post To Vue"
-                    HorizontalOptions="Center"
-                    VerticalOptions="End"
-                    HeightRequest="40"
-                    Clicked="Post_Clicked"></Button>
-
-        </StackLayout>
-      
     </Grid>
 </ContentPage>

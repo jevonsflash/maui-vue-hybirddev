@@ -17,7 +17,7 @@
             <ShellContent x:Name="SecondPageContent" />
         </Tab>
         <Tab  Title="页面3">
-            <ShellContent x:Name="MyContent" />
+            <ShellContent x:Name="ThirdPageContent" />
         </Tab>
     </TabBar>
 

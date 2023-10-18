@@ -14,6 +14,7 @@
            
             this.HomePageContent.Content = new HomePage();
             this.SecondPageContent.Content = new SecondPage();
+            this.ThirdPageContent.Content = new ThirdPage();
 
           
         }

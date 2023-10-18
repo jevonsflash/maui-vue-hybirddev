@@ -15,6 +15,9 @@
     <MauiXaml Update="Platforms\Windows\App.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\ThirdPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\SecondPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
