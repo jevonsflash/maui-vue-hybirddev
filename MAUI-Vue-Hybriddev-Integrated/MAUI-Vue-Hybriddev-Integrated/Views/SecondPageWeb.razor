@@ -1,5 +1,6 @@
 ﻿@using Microsoft.Maui.Controls
 @inject IJSRuntime JSRuntime
+@implements IDisposable
 
 <div id="vue-app">
     {{ message }}
@@ -9,18 +10,6 @@
         <p>提交成功</p>
     </el-dialog>
 </div>
-
-
-<script type="text/javascript">
-    var app = new Vue({
-        el: '#vue-app',
-        data: {
-            message: 'Page2!',
-            showDialog:true
-        }
-    })
-
-</script>
 
 
 
@@ -40,9 +29,9 @@
         return Task.FromResult(addInput.a + addInput.b);
     }
 
-    public async void Post(object o, EventArgs a)
+    public async void Post(object o, OnPostEventArgs args)
     {
-        await JSRuntime.InvokeAsync<string>("postBar", "this is bar call js method from C#");
+        await JSRuntime.InvokeAsync<string>("app.greet", args.Content);
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
@@ -51,6 +40,10 @@
         {
             if (firstRender)
             {
+                SecondPage.OnPost += this.Post;
+
+                await JSRuntime.InvokeAsync<IJSObjectReference>(
+    "import", "./Views/SecondPageWeb.razor.js");
             }
 
 
@@ -60,6 +53,12 @@
             Console.WriteLine(ex);
         }
 
+    }
+
+
+    public void Dispose()
+    {
+        SecondPage1.OnPost -= this.Post;
     }
 
 

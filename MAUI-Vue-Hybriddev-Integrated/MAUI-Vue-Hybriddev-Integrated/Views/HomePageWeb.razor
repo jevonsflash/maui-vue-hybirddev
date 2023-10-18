@@ -1,6 +1,5 @@
 ﻿@using Microsoft.Maui.Controls
 @inject IJSRuntime JSRuntime
-@implements IDisposable
 
 <div id="vue-app">
     {{ message }}
@@ -13,62 +12,18 @@
 </div>
 
 
-<script type="text/javascript">
-    var app = new Vue({
-        el: '#vue-app',
-        data: {
-            message: 'Hello Vue!',
-            showDialog:false,
-            input:'text message from vue'
-        }
-    })
-
-</script>
-
 
 
 @code {
-    [Parameter]
-    public HomePage HomePage { get; set; }
-
-    [JSInvokable]
-    public static Task<string> GetFoo()
-    {
-        return Task.FromResult("this is foo call C# method from js");
-    }
-
-    [JSInvokable]
-    public static Task<int> Add(AddInput addInput)
-    {
-        return Task.FromResult(addInput.a + addInput.b);
-    }
-
-    public async void Post(object o, EventArgs a)
-    {
-        await JSRuntime.InvokeAsync<string>("postBar", "this is bar call js method from C#");
-    }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        HomePage.OnPostBar += this.Post;
-        try
+        if (firstRender)
         {
-            if (firstRender)
-            {
-            }
-
-
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex);
+            await JSRuntime.InvokeAsync<IJSObjectReference>(
+    "import", "./Views/HomePageWeb.razor.js");
         }
 
-    }
-
-    public void Dispose()
-    {
-        HomePage.OnPostBar -= this.Post;
     }
 
 }

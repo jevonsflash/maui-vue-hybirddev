@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:MAUI_Vue_Hybriddev_Integrated"
              xmlns:views="clr-namespace:MAUI_Vue_Hybriddev_Integrated.Views"
-             x:Class="MAUI_Vue_Hybriddev_Integrated.SecondPage"
-             BackgroundColor="{DynamicResource PageBackgroundColor}">
+             x:Class="MAUI_Vue_Hybriddev_Integrated.SecondPage">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -19,12 +18,12 @@
             </BlazorWebView.RootComponents>
         </BlazorWebView>
         <StackLayout Grid.Row="1">
-            <Entry Text="text message from native"></Entry>
-            <Button Text="Post Bar To WebView"
+            <Entry x:Name="PostContentEntry" Text="text message from native"></Entry>
+            <Button Text="Post To Vue"
                     HorizontalOptions="Center"
                     VerticalOptions="End"
                     HeightRequest="40"
-                    Clicked="PostBar_Clicked"></Button>
+                    Clicked="Post_Clicked"></Button>
 
         </StackLayout>
       

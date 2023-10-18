@@ -7,17 +7,7 @@ namespace MAUI_Vue_Hybriddev_Integrated
         public event EventHandler<EventArgs> OnPostBar;
         public HomePage()
         {
-            this.Appearing+=HomePage_Appearing;
             InitializeComponent();
-        }
-
-        private void HomePage_Appearing(object sender, EventArgs e)
-        {
-            rootComponent.Parameters =
-                new Dictionary<string, object>
-                {
-                    { "HomePage", this }
-                };
         }
 
         private void PostBar_Clicked(object sender, EventArgs args)

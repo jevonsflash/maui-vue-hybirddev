@@ -14,10 +14,5 @@
                                ComponentType="{x:Type views:HomePageWeb}" />
             </BlazorWebView.RootComponents>
         </BlazorWebView>
-        <Button Text="Post Bar To WebView"
-                HorizontalOptions="Center"
-                VerticalOptions="End"
-                HeightRequest="40"
-                Clicked="PostBar_Clicked"></Button>
     </Grid>
 </ContentPage>

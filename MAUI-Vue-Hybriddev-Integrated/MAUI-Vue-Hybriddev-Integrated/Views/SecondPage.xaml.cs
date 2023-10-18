@@ -2,9 +2,19 @@
 
 namespace MAUI_Vue_Hybriddev_Integrated
 {
+
+    public class OnPostEventArgs : EventArgs
+    {
+        public OnPostEventArgs(string content)
+        {
+            this.Content = content;
+        }
+        public string Content { get; set; }
+    }
+
     public partial class SecondPage : ContentPage
     {
-        public event EventHandler<EventArgs> OnPostBar;
+        public event EventHandler<OnPostEventArgs> OnPost;
         public SecondPage()
         {
             this.Appearing+=SecondPage_Appearing;
@@ -20,9 +30,9 @@ namespace MAUI_Vue_Hybriddev_Integrated
                 };
         }
 
-        private void PostBar_Clicked(object sender, EventArgs args)
+        private void Post_Clicked(object sender, EventArgs args)
         {
-            OnPostBar?.Invoke(this, args);
+            OnPost?.Invoke(this, new OnPostEventArgs(this.PostContentEntry.Text));
         }
     }
 }
